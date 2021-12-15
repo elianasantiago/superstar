@@ -1,0 +1,60 @@
+body{ 
+	margin: 0;
+
+
+}
+
+
+header {
+
+	background-color: lightcoral;
+	
+	/* vai alinhar tanto o texto como a imagem ao centro */
+
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+
+}
+
+
+/* Consultar Google Fonts https://fonts.google.com/ */
+p {
+	font-family: Roboto, Helvetica, Arial;
+	line-height: 140%;
+}
+
+/* relativo ao h1 que está dentro do header */
+
+header h1{
+color: mistyrose;
+font-family: Roboto-Mono, Georgia, Arial;
+font-size: 60px;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 10px solid mistyrose;
+}
+
+
+main h2 {
+font-family: Roboto-Mono, Georgia, Arial;
+
+
+}
+
+main {
+
+	max-width: 800px;
+	margin: 0 auto;
+	padding: o 20px 20px 100px;
+
+	}
+
+main img{
+max-width: 100%;
+
+}
+}
