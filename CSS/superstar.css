@@ -49,7 +49,7 @@ ul {
 	color: darkorange;
 }
 
-h1, h2, h3{
+h1, h2 {
 font-family: 'Roboto Mono', monospace;
 
 }
@@ -72,6 +72,7 @@ header img{
 
 main h2 {
 font-weight: 300;
+margin: 40px 0 10px;
 
 }
 
@@ -79,7 +80,7 @@ main {
 
 	max-width: 800px;
 	margin: 0 auto;
-	padding: o 20px 20px 100px;
+	padding: 0 20px 20px 100px;
 
 	}
 
@@ -88,12 +89,20 @@ max-width: 100%;
 
 }
 
-h3 {
+a:hover{
+
+	background-color: darkorange;
+	color: white;
+}
+
+p.legenda{
 
 	font-weight: 300;
 	font-size: 12px;
 	font-style: italic;
 	color: purple;
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
 }
 
 footer p{
@@ -101,4 +110,16 @@ font-weight: 500;
 font-size: 12px;
 	font-style: italic;
 }
+
+h2 a:hover{
+background-color: black;
+	color: white;
+
+}
+
+h2 a{
+
+	color: black;
+}
+
 }
